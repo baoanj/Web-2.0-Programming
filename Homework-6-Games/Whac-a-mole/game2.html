@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Whac-a-mole</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="game2.css">
+    <script type="text/javascript" src="game2.js"></script>
+</head>
+
+<body>
+    <div>
+    	<h1>Whac-a-mole</h1>
+    	<p class="titlenote">
+    		Test your skill.How many boxs(moles) can you check(hit) in 15 seconds?
+    	</p>
+    </div>
+
+    <!-- 游戏信息显示区域 -->
+    <div id="display">
+    	<div>
+    		<input id="box1" type = "button" value = "Start Game|Pause Game" />
+    	</div>
+    	<div>
+    		Time:<div id="box2"></div>
+    	</div>
+    	<div>
+    		<div id="box3"></div>
+    	</div>
+    	<div>
+    		Score:<div id="box4"></div>
+    	</div>
+    </div>
+
+    <!-- 游戏点击区域 -->
+    <div id="gamearea"></div>
+
+    <div id="note">
+    	<p class="structions notetext">Instructions:</p>
+    	<blockquote>
+    		<p class="notetext">
+    			1.Click on the radio buttons(moles) as they are selected randomly by the computer.
+    			2.1 point per hit, minus 1 point per miss.
+    		</p>
+    	</blockquote>
+    </div>
+</body>
+</html>

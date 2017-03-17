@@ -1,0 +1,43 @@
+* {
+	font-family: '微软雅黑';
+	text-align: left;
+}
+
+body {
+	margin-left: 450px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border:1px solid #C0C0C0;
+}
+
+th {
+	background-color: #031A80;
+	color: white;
+	cursor: pointer;
+}
+
+.th_class {
+	background-color: #A6AFFC;
+}
+
+th img {
+	float: right;
+	margin-left: 5px;
+}
+
+#todo th, #todo td {
+	padding: 2px 3px 2px 3px;
+}
+
+#staff th, #staff td {
+	padding: 2px 3px 2px 3px;
+}
+
+.alternate {
+	background-color: #DDD;
+}

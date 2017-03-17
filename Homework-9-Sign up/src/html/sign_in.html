@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>用户注册</title>
+  <link rel="stylesheet" type="text/css" href="../src/sign_in.css" />
+  <script type="text/javascript" src="../src/jquery.js"></script>
+  <script type="text/javascript" src="../src/sign_in.js"></script>
+</head>
+
+<body>
+  <div id="main_content">
+    <h1>用户注册</h1>
+    <form id="register_form" action="/" method="post">
+      <input id="username" name="username" type="text" placeholder="用户名" maxlength="15">
+      <p class="tips">用户名为6~18位英文字母、数字或下划线，必须以英文字母开头</p>
+      <p id="err_name" class="error"></p>
+      <input id="studentID" name="studentID" type="text" placeholder="学号" maxlength="8">
+      <p class="tips">学号为8位数字，不能以0开头</p>
+      <p id="err_stuID" class="error"></p>
+      <input id="telephone" name="telephone" type="text" placeholder="电话" maxlength="11">
+      <p class="tips">电话为11位数字，不能以0开头</p>
+      <p id="err_telephone" class="error"></p>
+      <input id="email" name="email" type="text" placeholder="邮箱">
+      <p class="tips">请填写您常用的邮箱</p>
+      <p id="err_email" class="error"></p>
+      <button id="reset" type="reset">重置</button>
+      <button id="register" type="submit">注册</button>
+    </form>
+  </div>
+</body>
+
+</html>
